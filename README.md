@@ -1,29 +1,40 @@
-# Characterization-of-microbiota-during-different-physiological-states-in-Cornu-aspersum (2024)
-16S microbiota analysis of Cornu aspersum across physiological states (active, aestivation, post-aestivation). Quality control with NanoStat, taxonomic assignment with Kraken2, and statistical analyses in R (diversity, PCA, co-occurrence networks).
+# Characterization of microbiota during different physiological states in *Cornu aspersum* (Coursework Project for undergraduate studies, 2024)
+
+This repository contains the processed data and code associated with the research on gut microbiota characterization in the land snail *Cornu aspersum* across physiological states (active, aestivation, post-aestivation). In this brief study, we performed quality control with NanoStat for sequences obtained using Nanopore, taxonomic assignment with Kraken2, and statistical analyses in R (diversity, PCA, co-occurrence networks).
 
 ## Methods
 - **Quality control**: NanoStat
 - **Taxonomic classification**: Kraken2
-- **Statistical analysis**: R (tidyverse, vegan, phyloseq, igraph) including alpha/beta diversity, PCA, and co-occurrence networks.
+- **Statistical analysis**: R (tidyverse, vegan, phyloseq, igraph) including alpha/beta diversity, PCA, and co-occurrence networks
 - **Data visualization**: R (ggplot2)
+
 ## Physiological states
 - Active
 - Aestivation
 - Post-aestivation
-  
-## Reproducibility
-  - Word document
-  - R script
-  - Figures
+
+## Repository contents
+
+| File | Description |
+|------|-------------|
+| `research_document.pdf` | Full research document |
+| `microbiota_data.csv` | Dataset used for the analyses (CSV format) |
+| `microbiota_analysis.R` | R script containing the code for data processing, statistical analysis, and visualization |
+
 ## Requirements
-  - Linux/Ubuntu
-  - FastQ
-  - NanoStat
-  - Kraken2
- -  R
- - (tidyverse
- -  vegan,
- -  phyloseq,
- -  igraph)
-## Licence
- - MIT license
+
+- **Operating system**: Linux/Ubuntu
+- **Sequence data**: FastQ files
+- **Tools**: NanoStat, Kraken2
+- **R version**: 4.4.3 or higher
+- **R packages**: tidyverse, vegan, phyloseq, igraph
+
+## Acknowledgments
+
+I am grateful to Dr. Luz Helena Patiño for her invaluable support, lectures, and guidance throughout this research as part of my coursework. I also thank Universidad del Rosario for providing the resources, facilities, and equipment that made this work possible during my funded undergraduate studies. Special thanks go to the Centro de Investigaciones Microbiológicas y Biotecnológicas (CIMBIUR) at Universidad del Rosario for their technical support.
+
+## License
+
+- **Code**: MIT License
+- **Research document, figures, and data**: CC BY 4.0
+
