@@ -26,7 +26,7 @@ This repository contains the processed data and code associated with the researc
 - **Operating system**: Linux/Ubuntu
 - **Sequence data**: FastQ files
 - **Tools**: NanoStat, Kraken2
-- **R version**: 4.4.3 or higher
+- **R version**: 4.4.2
 - **R packages**: tidyverse, vegan, phyloseq, igraph
 
 ## Acknowledgments
