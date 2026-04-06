@@ -18,7 +18,7 @@ This repository contains the processed data and code associated with the researc
 | File | Description |
 |------|-------------|
 | `research_document.pdf` | Full research document |
-| `microbiota_data.csv` | Dataset used for the analyses (CSV format) |
+| `Data_Bacteria_Reads.xlsx.csv` | Dataset used for the analyses (CSV format) |
 | `microbiota_analysis.R` | R script containing the code for data processing, statistical analysis, and visualization |
 
 ## Requirements
