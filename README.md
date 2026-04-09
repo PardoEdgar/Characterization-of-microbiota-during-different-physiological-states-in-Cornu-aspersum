@@ -31,7 +31,7 @@ This repository contains the processed data and code associated with the researc
 
 ## Acknowledgments
 
-I am grateful to Dr. Luz Helena Patiño for her invaluable support, lectures, and guidance throughout this research as part of my coursework. I also thank Universidad del Rosario for providing the resources, facilities, and equipment that made this work possible during my funded undergraduate studies. Special thanks go to the Centro de Investigaciones Microbiológicas y Biotecnológicas (CIMBIUR) at Universidad del Rosario for their technical support.
+I am grateful to Dr. Luz Helena Patiño for her invaluable support, lectures, and guidance throughout this research as part of my coursework. I also thank Universidad del Rosario for providing the resources, facilities, and equipment that made this work possible during my funded undergraduate studies. Special thanks go to Centro de Investigaciones Microbiológicas y Biotecnológicas (CIMBIUR) at Universidad del Rosario for their technical support.
 
 ## License
 
