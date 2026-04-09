@@ -35,6 +35,12 @@ I am grateful to Dr. Luz Helena Patiño for her invaluable support, lectures, an
 
 ## License
 
-- **Code**: MIT License
-- **Research document, figures, and data**: CC BY 4.0
+- **Code:** MIT License  
+- **Research document, figures, and data:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
+You are free to use, modify, and distribute the code under the MIT License.  
+The research content (text, figures, and datasets) may be shared and adapted for any purpose, provided appropriate credit is given.
+
+For more details:
+- MIT License: https://opensource.org/licenses/MIT  
+- CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
