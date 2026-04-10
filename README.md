@@ -27,7 +27,7 @@ This repository contains the processed data and code associated with the researc
 - **Sequence data**: FastQ files, Biom file, tsv file and csv table file.
 - **Tools**: NanoStat, Kraken2
 - **R version**: 4.4.2
-- **R packages**: tidyverse, vegan, phyloseq, igraph
+- **R packages**: tidyverse, ggrepel, vegan, viridis, igraph
 
 ## Acknowledgments
 
