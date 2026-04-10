@@ -13,8 +13,8 @@ Phylum_abundances <- Data_bacteria_reads %>%
     Post_aestivation = sum(Post_aestivation, na.rm = TRUE),
     Aestivation = sum(Aestivation, na.rm = TRUE)
   ) %>%
-  filter(!is.na(Phylum)) %>%  # Eliminar filas donde Family es NA
-  arrange(desc(Active))  # Ordenar por la Abundance activa
+  filter(!is.na(Phylum)) %>%  
+  arrange(desc(Active))  
 Family_abundances <- Data_bacteria_reads %>%
   group_by(Family) %>%
   summarise(
@@ -126,7 +126,7 @@ simpson_index <- vegan::diversity(Abundance_matrix, index = "simpson")
 simpson_index
 Richness <- specnumber(Abundance_matrix)
 Richness
-3
+
 #Beta diversity
 Abundance_matriz <- as.matrix(Family_abundances[,3:5])
 Abundance_matriz
