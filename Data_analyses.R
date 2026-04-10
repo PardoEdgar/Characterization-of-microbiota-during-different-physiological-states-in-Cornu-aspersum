@@ -3,7 +3,8 @@ library(vegan)
 library(ggrepel)
 library(igraph)
 library(viridis) 
-Data_bacteria_reads <- read_csv("C:/Users/jandr/OneDrive - Universidad del rosario/Bacteries_Project/Data_Bacteria_Reads.csv")
+path <- ("/Data_Bacteria_Reads.csv") 
+Data_bacteria_reads <- read_csv(path)
 Phylum_abundances <- Data_bacteria_reads %>%
   group_by(Phylum) %>%
   summarise(
