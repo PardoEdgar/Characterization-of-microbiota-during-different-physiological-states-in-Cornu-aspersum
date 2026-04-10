@@ -1,10 +1,9 @@
 library(tidyverse)
 library(vegan)
-library(readxl)
 library(ggrepel)
 library(igraph)
 library(viridis) 
-Data_bacteria_reads <- read_xlsx("C:/Users/jandr/OneDrive - Universidad del rosario/Bacteries_Project/Data_Bacteria_Reads.xlsx")
+Data_bacteria_reads <- read_csv("C:/Users/jandr/OneDrive - Universidad del rosario/Bacteries_Project/Data_Bacteria_Reads.csv")
 Phylum_abundances <- Data_bacteria_reads %>%
   group_by(Phylum) %>%
   summarise(
