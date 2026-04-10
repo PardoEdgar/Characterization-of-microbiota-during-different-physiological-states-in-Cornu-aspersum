@@ -3,9 +3,7 @@ library(vegan)
 library(readxl)
 library(ggrepel)
 library(igraph)
-library(seqinr)
 library(viridis) 
-library(stats)
 Data_bacteria_reads <- read_xlsx("C:/Users/jandr/OneDrive - Universidad del rosario/Bacteries_Project/Data_Bacteria_Reads.xlsx")
 Phylum_abundances <- Data_bacteria_reads %>%
   group_by(Phylum) %>%
